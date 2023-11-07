@@ -24,8 +24,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     
   }
-  
-  /* Modal Content */
+
   .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
@@ -51,11 +50,4 @@
     color: whitesmoke;
     background-color:rgb(154, 56, 56);
   }
-  .backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+    

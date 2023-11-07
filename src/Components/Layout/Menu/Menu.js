@@ -1,5 +1,5 @@
 import MenuItem from "./MenuItem"
-import "./Layout.css"
+import "../Layout.css"
 const Menu = () =>{
     const menuItems = [
         {name:"MARGHERITA" , desc:"A hugely popular margherita, with a deliciously tangy single cheese topping",price:250},

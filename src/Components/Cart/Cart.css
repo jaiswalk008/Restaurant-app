@@ -1,0 +1,13 @@
+.cart-button{
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+    width: 200px;
+}
+.cart-value{
+    margin-left: 20px;
+    font-size: 1.175rem;
+    font-weight: 400;
+    background-color: rgb(154, 56, 56);
+    padding: 8px;
+    border-radius: 400%;
+}

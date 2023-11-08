@@ -2,7 +2,7 @@ import { useContext, useState ,useEffect} from 'react';
 import {createPortal} from 'react-dom'
 import './Cart.css'
 import CartModal from './CartModal';
-import CartContext from '../Store/cart-context';
+// import CartContext from '../Store/cart-context';
 
 const Cart = ({totalItems,total}) => {
     const [showModal  , setShowModal] = useState(false);

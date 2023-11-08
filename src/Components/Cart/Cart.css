@@ -54,4 +54,31 @@
     font-weight: bolder;
     background-color:rgb(154, 56, 56);
   }
-    
+  .increase,.decrease{
+    color: rgb(154, 56, 56);
+
+    margin: 2px;
+    font-weight: bolder;
+    border: 1px solid rgb(154, 56, 56);
+
+  }
+  .increase,.decrease{
+    color: rgb(154, 56, 56);
+    font-size: large;
+    margin: 2px;
+    font-weight: bolder;
+    border: 1px solid rgb(154, 56, 56);
+    width: 30px;
+    border-radius: 5px;
+  }
+  .increase:hover,.decrease:hover{
+    color: whitesmoke;
+    border: 1px solid black;
+    width: 30px;
+    background-color: rgb(128, 13, 13);
+    border-radius: 5px;
+  }
+  hr{
+    color:  rgb(66, 1, 1);
+    height: 3px !important;
+  }

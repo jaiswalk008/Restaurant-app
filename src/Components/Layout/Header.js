@@ -1,11 +1,16 @@
 import Cart from '../Cart/Cart';
+import { useContext, useState ,useEffect} from 'react';
 import './Layout.css'
+import CartContext from '../Store/cart-context';
 const Header = () =>{
+
+    const ctx = useContext(CartContext);
+   
     return (
         <>
             <nav className="header">
                 <h1><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzJUbVeo54US84XD82FvvD20BU_3ri7-TjGXv87bE&s' alt="logo"></img>Pizza Mania</h1>
-                <Cart/>
+                <Cart totalItems={ctx.items.length}/>
             </nav>
             <div style={{ position: 'relative' }}>
                 <img className='header-image' src={require('../../assets/Header-image.jpg')} alt='pizza mania Header' />

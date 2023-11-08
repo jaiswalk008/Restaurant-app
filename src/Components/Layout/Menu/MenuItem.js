@@ -3,7 +3,7 @@ import AddQuantity from './AddQuantity';
 const MenuItem = (props) =>{
    return(
     <div className="menu-item">
-        <div>
+        <div id={props.id}>
             <h4>{props.name}</h4>
             <i>{props.desc}</i><br></br>
             <strong className='price'>Rs. {props.price}</strong>

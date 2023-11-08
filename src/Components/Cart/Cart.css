@@ -35,7 +35,8 @@
   
   /* Close Button */
   .close {
-    color: rgb(154, 56, 56);
+    color: rgb(154, 56, 56) ;
+    
     font-size: 1.1rem;
     font-weight: bold;
     border: 1px solid rgb(154, 56, 56);
@@ -43,11 +44,14 @@
   .close:hover,
   .close:focus {
     color: #000;
+    background-color: rgb(154, 56, 56);
     text-decoration: none;
     cursor: pointer;
   }
   .order {
     color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: bolder;
     background-color:rgb(154, 56, 56);
   }
     
